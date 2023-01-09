@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    font-family: cursive;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+.header{
+    margin: 50px 20px 0px;
+    padding: 30px;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+}
+.header h4{
+    margin: 0;
+}
+
+.origin-text{
+    margin: 5px 20px 0px;
+    padding: 30px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+.origin-text p{
+    margin: 0;
+}
