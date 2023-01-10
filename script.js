@@ -32,7 +32,18 @@ function reset(){
 }
 //Match the text with provided text on the page
 function spellCheck(){
-    
+    let textEntered = textArea.value;
+    let originTextMatch = originText.innerHTML.substring(0, textEntered.length);
+
+    if(textEntered == originText.innerHTML){
+        textWrapper.style.borderColor = "orange"
+    }else{
+        if(textEntered == originTextMatch){
+            textWrapper.style.borderColor = 'green'
+        }else{
+            textWrapper.style.borderColor =  "red"
+        }
+    }
 }
 //Start the timer function
 function start(){
